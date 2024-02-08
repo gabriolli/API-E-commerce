@@ -15,7 +15,8 @@ Primeiramente, você deve ter o python instalado no seu computador, você pode f
    
 2. Agora digite o seguinte comando "pip install -r requirements.txt" e pressione a tecla Enter.
 
-   ![image](https://github.com/gabriolli/API-E-commerce/assets/98133634/e1c81ff8-5b82-4d3c-a93c-2481f9e5068d)
+   ![cmd-image](https://github.com/gabriolli/API-E-commerce/assets/98133634/57522330-f95d-4c0f-adc8-13a08f29523e)
+
 
 O download e a instalação serão feitos automaticamente.
 
@@ -23,19 +24,30 @@ O download e a instalação serão feitos automaticamente.
 #Como utilizar a API
 Utilizando o aplicativo [Postman](https://www.postman.com/downloads/), você pode navegar entre as rotas criadas e interagir com a API.
 
-Para configurar o Postman, primeiramente rode o programa (arquivo application.py) e copie o endereço onde a aplicação está sendo rodada.
+Após instalar o Postman na sua máquina, importe o arquivo swagger.yaml:
+
+1. Clique no botão *Import*;
+2. Selecione a opção de importar arquivos;
+3. selecione o arquivo swagger.yaml na pasta da API. 
+
+
+Agora, para configurar o Postman, primeiramente rode o programa (arquivo application.py) e copie o endereço onde a aplicação está sendo rodada.
+
   Estou utilizando o VS Code para abrir e executar a aplicação.
-  ![image](https://github.com/gabriolli/API-E-commerce/assets/98133634/05660e1c-8cca-412b-8169-771211697917)
-  ![image](https://github.com/gabriolli/API-E-commerce/assets/98133634/e69ac4c6-98d3-4368-a001-df04dcd53ca2)
+
+  ![run-api](https://github.com/gabriolli/API-E-commerce/assets/98133634/7df37128-9a1f-45e3-b399-ecf90ed19fd5)
+
+
 
 1. No Postman, vá até *Environments* e clique no "+";
 2. Dê um nome ao seu environment, pode ser qualquer nome, mas utilize o "LOCAL" para saber que o mesmo é rodado em sua máquina;
 3. Em *Variable*, digite "baseUrl", não pode ser outro texto;
-4. Em *Inivial value*, cole o endereço da aplicação que você copiou do terminal;
+4. Em *Initial value*, cole o endereço da aplicação que você copiou do terminal;
 5. Salve seu environment;
 6. Agora selecione o environment que você criou.
 
-   ![image](https://github.com/gabriolli/API-E-commerce/assets/98133634/09f23392-8034-42fa-99f4-dd6a783a4e52)
+   ![segundo-postamn](https://github.com/gabriolli/API-E-commerce/assets/98133634/a2b99b19-2e35-4901-aa45-169b7ddc959a)
+
 
 **A API possui um sistema de login.**
 
