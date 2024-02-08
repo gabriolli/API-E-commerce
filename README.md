@@ -30,6 +30,8 @@ Após instalar o Postman na sua máquina, importe o arquivo swagger.yaml:
 2. Selecione a opção de importar arquivos;
 3. selecione o arquivo swagger.yaml na pasta da API. 
 
+![pirmeiro-postman](https://github.com/gabriolli/API-E-commerce/assets/98133634/db1bf433-3053-413b-89c0-a4b5e93e41cc)
+
 
 Agora, para configurar o Postman, primeiramente rode o programa (arquivo application.py) e copie o endereço onde a aplicação está sendo rodada.
 
@@ -57,7 +59,9 @@ Username: admin
 
 Password: 1579
 
-![image](https://github.com/gabriolli/API-E-commerce/assets/98133634/18d3cbcf-e7e6-459a-aea6-4b59e46e9ed1)
+![login-postman](https://github.com/gabriolli/API-E-commerce/assets/98133634/5308c6fd-2f7f-4fe1-b0f2-a1cca8a42fd3)
 
 
 Assim, você terá acesso a todas as rotas da API. As credenciais podem ser alteradas usando o terminal.
+
+**LEMBRANDO QUE PARA QUE A API FUNCIONE NO POSTMAN, A APLICAÇÃO DEVE ESTAR RODANDO - NO MEU CASO ESTÁ RODANDO NO VS CODE**
